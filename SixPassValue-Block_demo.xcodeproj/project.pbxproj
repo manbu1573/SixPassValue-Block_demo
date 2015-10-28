@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C27A333E1BAAA52F00EF2591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A333D1BAAA52F00EF2591 /* main.m */; };
+		C27A33411BAAA52F00EF2591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A33401BAAA52F00EF2591 /* AppDelegate.m */; };
+		C27A33431BAAA52F00EF2591 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27A33421BAAA52F00EF2591 /* Images.xcassets */; };
+		C27A33461BAAA52F00EF2591 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A33441BAAA52F00EF2591 /* LaunchScreen.xib */; };
+		C27A33521BAAA52F00EF2591 /* SixPassValue_Block_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A33511BAAA52F00EF2591 /* SixPassValue_Block_demoTests.m */; };
+		C27A335E1BAAA54600EF2591 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A335C1BAAA54600EF2591 /* FirstViewController.m */; };
+		C27A335F1BAAA54600EF2591 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A335D1BAAA54600EF2591 /* FirstViewController.xib */; };
+		C27A33631BAAA55600EF2591 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27A33611BAAA55600EF2591 /* SecondViewController.m */; };
+		C27A33641BAAA55600EF2591 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27A33621BAAA55600EF2591 /* SecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C27A334C1BAAA52F00EF2591 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C27A33301BAAA52F00EF2591 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27A33371BAAA52F00EF2591;
+			remoteInfo = "SixPassValue-Block_demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C27A33381BAAA52F00EF2591 /* SixPassValue-Block_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SixPassValue-Block_demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A333C1BAAA52F00EF2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27A333D1BAAA52F00EF2591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C27A333F1BAAA52F00EF2591 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C27A33401BAAA52F00EF2591 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C27A33421BAAA52F00EF2591 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C27A33451BAAA52F00EF2591 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C27A334B1BAAA52F00EF2591 /* SixPassValue-Block_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SixPassValue-Block_demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27A33501BAAA52F00EF2591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27A33511BAAA52F00EF2591 /* SixPassValue_Block_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixPassValue_Block_demoTests.m; sourceTree = "<group>"; };
+		C27A335B1BAAA54600EF2591 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C27A335C1BAAA54600EF2591 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C27A335D1BAAA54600EF2591 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		C27A33601BAAA55600EF2591 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C27A33611BAAA55600EF2591 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C27A33621BAAA55600EF2591 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C27A33351BAAA52F00EF2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A33481BAAA52F00EF2591 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C27A332F1BAAA52F00EF2591 = {
+			isa = PBXGroup;
+			children = (
+				C27A333A1BAAA52F00EF2591 /* SixPassValue-Block_demo */,
+				C27A334E1BAAA52F00EF2591 /* SixPassValue-Block_demoTests */,
+				C27A33391BAAA52F00EF2591 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C27A33391BAAA52F00EF2591 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C27A33381BAAA52F00EF2591 /* SixPassValue-Block_demo.app */,
+				C27A334B1BAAA52F00EF2591 /* SixPassValue-Block_demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C27A333A1BAAA52F00EF2591 /* SixPassValue-Block_demo */ = {
+			isa = PBXGroup;
+			children = (
+				C27A333F1BAAA52F00EF2591 /* AppDelegate.h */,
+				C27A33401BAAA52F00EF2591 /* AppDelegate.m */,
+				C27A335B1BAAA54600EF2591 /* FirstViewController.h */,
+				C27A335C1BAAA54600EF2591 /* FirstViewController.m */,
+				C27A335D1BAAA54600EF2591 /* FirstViewController.xib */,
+				C27A33601BAAA55600EF2591 /* SecondViewController.h */,
+				C27A33611BAAA55600EF2591 /* SecondViewController.m */,
+				C27A33621BAAA55600EF2591 /* SecondViewController.xib */,
+				C27A33421BAAA52F00EF2591 /* Images.xcassets */,
+				C27A33441BAAA52F00EF2591 /* LaunchScreen.xib */,
+				C27A333B1BAAA52F00EF2591 /* Supporting Files */,
+			);
+			path = "SixPassValue-Block_demo";
+			sourceTree = "<group>";
+		};
+		C27A333B1BAAA52F00EF2591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27A333C1BAAA52F00EF2591 /* Info.plist */,
+				C27A333D1BAAA52F00EF2591 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C27A334E1BAAA52F00EF2591 /* SixPassValue-Block_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C27A33511BAAA52F00EF2591 /* SixPassValue_Block_demoTests.m */,
+				C27A334F1BAAA52F00EF2591 /* Supporting Files */,
+			);
+			path = "SixPassValue-Block_demoTests";
+			sourceTree = "<group>";
+		};
+		C27A334F1BAAA52F00EF2591 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27A33501BAAA52F00EF2591 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C27A33371BAAA52F00EF2591 /* SixPassValue-Block_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A33551BAAA52F00EF2591 /* Build configuration list for PBXNativeTarget "SixPassValue-Block_demo" */;
+			buildPhases = (
+				C27A33341BAAA52F00EF2591 /* Sources */,
+				C27A33351BAAA52F00EF2591 /* Frameworks */,
+				C27A33361BAAA52F00EF2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SixPassValue-Block_demo";
+			productName = "SixPassValue-Block_demo";
+			productReference = C27A33381BAAA52F00EF2591 /* SixPassValue-Block_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C27A334A1BAAA52F00EF2591 /* SixPassValue-Block_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A33581BAAA52F00EF2591 /* Build configuration list for PBXNativeTarget "SixPassValue-Block_demoTests" */;
+			buildPhases = (
+				C27A33471BAAA52F00EF2591 /* Sources */,
+				C27A33481BAAA52F00EF2591 /* Frameworks */,
+				C27A33491BAAA52F00EF2591 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C27A334D1BAAA52F00EF2591 /* PBXTargetDependency */,
+			);
+			name = "SixPassValue-Block_demoTests";
+			productName = "SixPassValue-Block_demoTests";
+			productReference = C27A334B1BAAA52F00EF2591 /* SixPassValue-Block_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C27A33301BAAA52F00EF2591 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = lanou3g;
+				TargetAttributes = {
+					C27A33371BAAA52F00EF2591 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					C27A334A1BAAA52F00EF2591 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = C27A33371BAAA52F00EF2591;
+					};
+				};
+			};
+			buildConfigurationList = C27A33331BAAA52F00EF2591 /* Build configuration list for PBXProject "SixPassValue-Block_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C27A332F1BAAA52F00EF2591;
+			productRefGroup = C27A33391BAAA52F00EF2591 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C27A33371BAAA52F00EF2591 /* SixPassValue-Block_demo */,
+				C27A334A1BAAA52F00EF2591 /* SixPassValue-Block_demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C27A33361BAAA52F00EF2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A33641BAAA55600EF2591 /* SecondViewController.xib in Resources */,
+				C27A33461BAAA52F00EF2591 /* LaunchScreen.xib in Resources */,
+				C27A335F1BAAA54600EF2591 /* FirstViewController.xib in Resources */,
+				C27A33431BAAA52F00EF2591 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A33491BAAA52F00EF2591 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C27A33341BAAA52F00EF2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A33631BAAA55600EF2591 /* SecondViewController.m in Sources */,
+				C27A33411BAAA52F00EF2591 /* AppDelegate.m in Sources */,
+				C27A335E1BAAA54600EF2591 /* FirstViewController.m in Sources */,
+				C27A333E1BAAA52F00EF2591 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C27A33471BAAA52F00EF2591 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C27A33521BAAA52F00EF2591 /* SixPassValue_Block_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C27A334D1BAAA52F00EF2591 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C27A33371BAAA52F00EF2591 /* SixPassValue-Block_demo */;
+			targetProxy = C27A334C1BAAA52F00EF2591 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C27A33441BAAA52F00EF2591 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C27A33451BAAA52F00EF2591 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C27A33531BAAA52F00EF2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C27A33541BAAA52F00EF2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C27A33561BAAA52F00EF2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "SixPassValue-Block_demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C27A33571BAAA52F00EF2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "SixPassValue-Block_demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C27A33591BAAA52F00EF2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SixPassValue-Block_demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixPassValue-Block_demo.app/SixPassValue-Block_demo";
+			};
+			name = Debug;
+		};
+		C27A335A1BAAA52F00EF2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SixPassValue-Block_demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SixPassValue-Block_demo.app/SixPassValue-Block_demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C27A33331BAAA52F00EF2591 /* Build configuration list for PBXProject "SixPassValue-Block_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A33531BAAA52F00EF2591 /* Debug */,
+				C27A33541BAAA52F00EF2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A33551BAAA52F00EF2591 /* Build configuration list for PBXNativeTarget "SixPassValue-Block_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A33561BAAA52F00EF2591 /* Debug */,
+				C27A33571BAAA52F00EF2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C27A33581BAAA52F00EF2591 /* Build configuration list for PBXNativeTarget "SixPassValue-Block_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A33591BAAA52F00EF2591 /* Debug */,
+				C27A335A1BAAA52F00EF2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C27A33301BAAA52F00EF2591 /* Project object */;
+}
